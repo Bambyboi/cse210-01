@@ -44,42 +44,42 @@ def game():
 
         # Now we will check if player X or O has won,for every move after 5 moves. 
         if count >= 5:
-            if Board_numbers['7'] == Board_numbers['8'] == Board_numbers['9'] != ' ': # across the top
+            if Board_numbers['7'] == Board_numbers['8'] == Board_numbers['9'] != ' ': 
                 printBoard(Board_numbers)
                 print("\nGame Over.\n")                
                 print(" **** " +turn + " won. ****")                
                 break
-            elif Board_numbers['4'] == Board_numbers['5'] == Board_numbers['6'] != ' ': # across the middle
+            elif Board_numbers['4'] == Board_numbers['5'] == Board_numbers['6'] != ' ': 
                 printBoard(Board_numbers)
                 print("\nGame Over.\n")                
                 print(" **** " +turn + " won. ****")
                 break
-            elif Board_numbers['1'] == Board_numbers['2'] == Board_numbers['3'] != ' ': # across the bottom
+            elif Board_numbers['1'] == Board_numbers['2'] == Board_numbers['3'] != ' ':
                 printBoard(Board_numbers)
                 print("\nGame Over.\n")                
                 print(" **** " +turn + " won. ****")
                 break
-            elif Board_numbers['1'] == Board_numbers['4'] == Board_numbers['7'] != ' ': # down the left side
+            elif Board_numbers['1'] == Board_numbers['4'] == Board_numbers['7'] != ' ': 
                 printBoard(Board_numbers)
                 print("\nGame Over.\n")                
                 print(" **** " +turn + " won. ****")
                 break
-            elif Board_numbers['2'] == Board_numbers['5'] == Board_numbers['8'] != ' ': # down the middle
+            elif Board_numbers['2'] == Board_numbers['5'] == Board_numbers['8'] != ' ': 
                 printBoard(Board_numbers)
                 print("\nGame Over.\n")                
                 print(" **** " +turn + " won. ****")
                 break
-            elif Board_numbers['3'] == Board_numbers['6'] == Board_numbers['9'] != ' ': # down the right side
+            elif Board_numbers['3'] == Board_numbers['6'] == Board_numbers['9'] != ' ': 
                 printBoard(Board_numbers)
                 print("\nGame Over.\n")                
                 print(" **** " +turn + " won. ****")
                 break 
-            elif Board_numbers['7'] == Board_numbers['5'] == Board_numbers['3'] != ' ': # diagonal
+            elif Board_numbers['7'] == Board_numbers['5'] == Board_numbers['3'] != ' ': 
                 printBoard(Board_numbers)
                 print("\nGame Over.\n")                
                 print(" **** " +turn + " won. ****")
                 break
-            elif Board_numbers['1'] == Board_numbers['5'] == Board_numbers['9'] != ' ': # diagonal
+            elif Board_numbers['1'] == Board_numbers['5'] == Board_numbers['9'] != ' ': 
                 printBoard(Board_numbers)
                 print("\nGame Over.\n")                
                 print(" **** " +turn + " won. ****")
