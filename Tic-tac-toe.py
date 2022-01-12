@@ -1,9 +1,5 @@
 #Tic-tac-toe..................................................................................
 
-''' We will make the board using dictionary 
-    in which keys will be the location(i.e : top-left,mid-right,etc.)
-    and initialliy it's values will be empty space and then after every move 
-    we will change the value according to player's choice of move. '''
 
 Board_numbers = {'1': ' ' , '2': ' ' , '3': ' ' ,
             '4': ' ' , '5': ' ' , '6': ' ' ,
@@ -92,7 +88,7 @@ def game():
         # If neither X nor O wins and the board is full, we'll declare the result as 'tie'.
         if count == 9:
             print("\nGame Over.\n")                
-            print("It's a Tie!!")
+            print("It's a Tie game!!")
 
         # Now we have to change the player after every move.
         if turn =='X':
